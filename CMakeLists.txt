@@ -9,4 +9,4 @@ add_library( trace_api_plugin
 target_link_libraries( trace_api_plugin chain_plugin http_plugin eosio_chain appbase )
 target_include_directories( trace_api_plugin PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include" )
 
-add_subdirectory( test )
+#add_subdirectory( test )
