@@ -43,6 +43,7 @@ namespace {
 
          const auto& a = actions.at(index);
          auto action_variant = fc::mutable_variant_object()
+               ("global_seq", a.global_sequence)
                ("receiver", a.receiver.to_string())
                ("account", a.account.to_string())
                ("action", a.action.to_string())
