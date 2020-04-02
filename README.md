@@ -34,6 +34,7 @@ Enable this plugin using --plugin option to nodeos or in your config.ini. Use no
 validation-mode = light
 chain-threads = 2
 net-threads = 4
+abi-serializer-max-time-ms = 300
 http-max-response-time-ms = 3000
 trace-minimum-irreversible-history-blocks = 30000
 plugin = eosio::trace_api_plugin
